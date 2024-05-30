@@ -1,0 +1,257 @@
+
+.navp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    ul,li{
+        display: flex;
+        justify-content: space-between;
+    }
+    padding-right: 50px;
+    margin: auto;
+    height: 50px;
+}
+.logo{
+    display: flex;
+    padding-left: 45px;
+}
+.logo h2{
+    margin-left: 25px;
+}
+.ca,.s{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 33px;
+}
+.support{
+    width: 250px;
+    align-items: center;
+}
+.s{
+    color: rgb(148, 148, 148);
+}
+
+.Anuncio{
+    height: 1px;
+}
+
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Anuncio{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 13px;
+}
+
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+}
+
+.body{
+    p{
+        text-align: left;
+    }
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        position:relative;
+        top: 50px;
+        font-style: normal;
+        font-size: 54px;
+        font-weight: 700px;
+        line-height: 46px;
+    }
+    background-color: white;
+    color: black;
+    height: 600px;
+    position: relative;
+}
+
+.IniciarSesion{
+    width: 590px;
+    height: 310px;
+    position: absolute;
+    left: 10%;
+    top: 160px;
+    background-color: white;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500px;
+    line-height: 22px;
+    .i1{
+        width: 550px;
+        height: 50px;
+    }
+    button{
+        width: 175px;
+        height: 50px;
+        position: relative;
+        top: 40px;
+        left: 110px;
+        background-color: rgb(67, 66, 66);
+        color: white;
+        font-style: normal;
+        font-size: 12px;
+        font-weight: 500px;
+        line-height: 50px;
+        border-style: none;
+        
+    }
+    .b2{
+        background-color: white;
+        color: #000;
+        
+    }
+    .b2:hover{
+        color: rgb(150, 150, 150);
+    }
+    .form1{
+        position: relative;
+        top: 40px;
+        margin-left: -27px;
+        
+    }
+    input{
+        background-color: #f6f6f6;
+        border: #ddd 1px solid;
+        margin: 5px 0px;
+        font-size: 14px;
+    }
+}
+
+.CrearCuenta{
+    width: 590px;
+    height: 310px;
+    position: absolute;
+    left: 52%;
+    bottom: 130px;
+    background-color: rgba(212, 211, 211, 0.853);
+    margin: auto;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgb(56, 56, 56);
+
+    h2{
+        position: relative;
+        left: 50px;
+        top: 25px;
+    }
+    
+    p{
+        position: relative;
+        left: 50px;
+        top: 25px;
+    }
+    ul{
+        position: relative;
+        left: 57px;
+        top: 10px;
+    }
+
+    h2{
+        color: black;
+        font-style: normal;
+        font-size: 18px;
+        font-weight: 400px;
+        line-height: 28px
+    }
+    button{
+        width: 220px;
+        height: 50px;
+        position: relative;
+        top: 20px;
+        left: 50px;
+        background-color: rgb(67, 66, 66);
+        color: white;
+        font-style: normal;
+        font-size: 12px;
+        font-weight: 500px;
+        line-height: 50px;
+        border-style: none;        
+    }
+    
+}
+
+.email{
+    height: 310px;
+    position: relative;
+    h1{
+        font-style: normal;
+        font-size: 16px;
+        font-weight: 400px;
+        line-height: 14px;
+        position: absolute;
+        top: 40px;
+        right: 47%;
+        
+    }
+    h2{
+        position: absolute;
+        font-style: normal;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        top: 80px;
+        left: 10%;
+        text-align: center;
+        width: 350px;
+        padding-left: 400px;
+    }
+
+    input{
+        text-align: center;
+        position: relative;
+        top: 70%;
+        left: 37%;
+        width: 350px;
+        height: 50px;
+        
+    }
+}
+.contacto{
+    background-color: black;
+    border-top: .1px #ddd solid;
+    height: 225px;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    position: relative;
+    ul{                
+        list-style-type: none;
+        display: inline-block;
+        position: relative;
+        top: 40px;
+    }
+    img{
+        position: absolute;
+        left: 70%; 
+        top: 20%;   
+    }
+}
+footer{
+    border-top: .1px  #ddd solid;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(150, 150, 150);
+    font-style: normal;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 30px;
+
+    
+}
+
